@@ -1,0 +1,222 @@
+[
+  {
+    "id": 101,
+    "name": "John Doe",
+    "email": "johndoe1@example.com",
+    "phoneNo": "+1-555-0001",
+    "message": "Interested in product demo.",
+    "status": "new",
+    "source": "Google Ads",
+    "assignedTo": "Agent A",
+    "interest": "High"
+  },
+  {
+    "id": 102,
+    "name": "Jane Smith",
+    "email": "janesmith2@example.com",
+    "phoneNo": "+1-555-0002",
+    "message": "Need more details about pricing.",
+    "status": "contacted",
+    "source": "Linked In",
+    "assignedTo": "Agent B",
+    "interest": "Medium"
+  },
+  {
+    "id": 103,
+    "name": "Michael Brown",
+    "email": "michaelbrown3@example.com",
+    "phoneNo": "+1-555-0003",
+    "message": "Wants partnership opportunities.",
+    "status": "converted",
+    "source": "Referral",
+    "assignedTo": "Agent C",
+    "interest": "High"
+  },
+  {
+    "id": 104,
+    "name": "Emily Johnson",
+    "email": "emilyjohnson4@example.com",
+    "phoneNo": "+1-555-0004",
+    "message": "Looking for custom solutions.",
+    "status": "new",
+    "source": "Other",
+    "assignedTo": "Agent D",
+    "interest": "Low"
+  },
+  {
+    "id": 105,
+    "name": "Chris Lee",
+    "email": "chrislee5@example.com",
+    "phoneNo": "+1-555-0005",
+    "message": "Requested callback.",
+    "status": "contacted",
+    "source": "Linked In",
+    "assignedTo": "Agent A",
+    "interest": "Medium"
+  },
+  {
+    "id": 106,
+    "name": "Sophia Martinez",
+    "email": "sophiamartinez6@example.com",
+    "phoneNo": "+1-555-0006",
+    "message": "Interested in buying bulk.",
+    "status": "converted",
+    "source": "Google Ads",
+    "assignedTo": "Agent B",
+    "interest": "High"
+  },
+  {
+    "id": 107,
+    "name": "Daniel Wilson",
+    "email": "danielwilson7@example.com",
+    "phoneNo": "+1-555-0007",
+    "message": "Waiting for brochure.",
+    "status": "new",
+    "source": "Referral",
+    "assignedTo": "Agent C",
+    "interest": "Low"
+  },
+  {
+    "id": 108,
+    "name": "Olivia Thomas",
+    "email": "oliviathomas8@example.com",
+    "phoneNo": "+1-555-0008",
+    "message": "Asked about service availability.",
+    "status": "contacted",
+    "source": "Other",
+    "assignedTo": "Agent D",
+    "interest": "Medium"
+  },
+  {
+    "id": 109,
+    "name": "James Davis",
+    "email": "jamesdavis9@example.com",
+    "phoneNo": "+1-555-0009",
+    "message": "Requested corporate package.",
+    "status": "converted",
+    "source": "Linked In",
+    "assignedTo": "Agent A",
+    "interest": "High"
+  },
+  {
+    "id": 110,
+    "name": "Mia Anderson",
+    "email": "miaanderson10@example.com",
+    "phoneNo": "+1-555-0010",
+    "message": "Needs case study samples.",
+    "status": "new",
+    "source": "Google Ads",
+    "assignedTo": "Agent B",
+    "interest": "Medium"
+  },
+  {
+    "id": 111,
+    "name": "Ethan Moore",
+    "email": "ethanmoore11@example.com",
+    "phoneNo": "+1-555-0011",
+    "message": "Follow-up needed next week.",
+    "status": "contacted",
+    "source": "Referral",
+    "assignedTo": "Agent C",
+    "interest": "Low"
+  },
+  {
+    "id": 112,
+    "name": "Isabella Clark",
+    "email": "isabellaclark12@example.com",
+    "phoneNo": "+1-555-0012",
+    "message": "Asked for annual subscription package.",
+    "status": "converted",
+    "source": "Other",
+    "assignedTo": "Agent D",
+    "interest": "High"
+  },
+  {
+    "id": 113,
+    "name": "Liam Taylor",
+    "email": "liamtaylor13@example.com",
+    "phoneNo": "+1-555-0013",
+    "message": "Needs free trial set up.",
+    "status": "new",
+    "source": "Linked In",
+    "assignedTo": "Agent A",
+    "interest": "Medium"
+  },
+  {
+    "id": 114,
+    "name": "Amelia White",
+    "email": "ameliawhite14@example.com",
+    "phoneNo": "+1-555-0014",
+    "message": "Interested in joining beta program.",
+    "status": "contacted",
+    "source": "Google Ads",
+    "assignedTo": "Agent B",
+    "interest": "Low"
+  },
+  {
+    "id": 115,
+    "name": "Noah Harris",
+    "email": "noahharris15@example.com",
+    "phoneNo": "+1-555-0015",
+    "message": "Wants dedicated account manager.",
+    "status": "converted",
+    "source": "Referral",
+    "assignedTo": "Agent C",
+    "interest": "High"
+  },
+  {
+    "id": 116,
+    "name": "Ava Martin",
+    "email": "avamartin16@example.com",
+    "phoneNo": "+1-555-0016",
+    "message": "Asked about software compatibility.",
+    "status": "new",
+    "source": "Other",
+    "assignedTo": "Agent D",
+    "interest": "Medium"
+  },
+  {
+    "id": 117,
+    "name": "William Allen",
+    "email": "williamallen17@example.com",
+    "phoneNo": "+1-555-0017",
+    "message": "Needs financing options.",
+    "status": "contacted",
+    "source": "Linked In",
+    "assignedTo": "Agent A",
+    "interest": "Low"
+  },
+  {
+    "id": 118,
+    "name": "Charlotte Scott",
+    "email": "charlottescott18@example.com",
+    "phoneNo": "+1-555-0018",
+    "message": "Looking for enterprise solution.",
+    "status": "converted",
+    "source": "Google Ads",
+    "assignedTo": "Agent B",
+    "interest": "High"
+  },
+  {
+    "id": 119,
+    "name": "Alexander Young",
+    "email": "alexyoung19@example.com",
+    "phoneNo": "+1-555-0019",
+    "message": "Wants video demonstration.",
+    "status": "new",
+    "source": "Referral",
+    "assignedTo": "Agent C",
+    "interest": "Medium"
+  },
+  {
+    "id": 120,
+    "name": "Harper King",
+    "email": "harperking20@example.com",
+    "phoneNo": "+1-555-0020",
+    "message": "Requested integration details.",
+    "status": "contacted",
+    "source": "Other",
+    "assignedTo": "Agent D",
+    "interest": "Low"
+  }
+]
