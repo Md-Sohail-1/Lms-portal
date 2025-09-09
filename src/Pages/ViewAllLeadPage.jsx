@@ -36,10 +36,10 @@ const ViewAllLeadPage = () => {
       
       <div className="mt-20 mb-4 w-[100wh] h-20 mx-auto flex gap-2 flex-col md:flex-row items-center md:px-4" >
         <p className="text-md md:text-2xl ml-2 font-bold " >Lead Managment System</p>
-        <form id="searchBox" className="mx-auto  w-4/5 md:max-w-2/3 md:w-1/2 md:mr-6 flex items-center relative " >
-          <input onChange={handleSearchChange} value={search} type="text" placeholder="Search Here..." className="w-full md:w-full h-12 rounded-full px-4 border-2 border-violet-200 shadow-md focus:outline-violet-500" />
+        <div id="searchBox" className="mx-auto  w-4/5 md:max-w-2/3 md:w-1/2 md:mr-6 flex items-center relative " >
+          <input name="searchInput" onChange={handleSearchChange} value={search} type="text" placeholder="Search Here..." className="w-full md:w-full h-12 rounded-full px-4 border-2 border-violet-200 shadow-md focus:outline-violet-500" />
           <IoSearch className="text-xl text-violet-600 absolute top-1/2 -translate-y-1/2 right-3" />
-        </form>
+        </div>
       </div>
       
       <div className="overflow-x-scroll px-3" >
