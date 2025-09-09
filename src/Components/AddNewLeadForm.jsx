@@ -40,18 +40,18 @@ const AddNewLeadForm = () => {
   }
   
   return (
-    <form onSubmit={handleFormSubmit} className="h-auto w-auto pt-20" >
+    <form onSubmit={handleFormSubmit} id="createLeadForm" className="h-auto w-auto pt-20" >
       <fieldset className="mx-auto px-4 w-4/5 flex flex-col gap-4 py-4 md:grid md:px-6 md:grid-cols-2 md:gap-x-6 md:gap-y-4 border-2 border-violet-300 rounded-md">
         <legend className="px-1" >Add New Lead</legend>
-        <div className="mx-auto flex flex-col">
+        <div className="mx-auto flex flex-col w-full md:w-[calc(100%-24px)]">
           <label htmlFor="name" className="text-sm py-1 md:py-2" >Enter Name:</label>
           <input id="name" onChange={handleInputChange} value={inputs.name} name="name" type="text" placeholder="Enter Name Here.."  className="focus:outline-1 border-2 border-violet-300 focus:outline-violet-700 w-full shadow-sm py-2 px-2 rounded-md" />
         </div>
-        <div className="mx-auto flex flex-col">
+        <div className="mx-auto flex flex-col w-full md:w-[calc(100%-24px)]">
           <label htmlFor="email" className="text-sm py-1 md:py-2" >Enter Email:</label>
           <input id="email" onChange={handleInputChange} value={inputs.email} name="email"  type="email" placeholder="Enter Email Here.."  className="focus:outline-1 border-2 border-violet-300 focus:outline-violet-700 w-full shadow-sm py-2 px-2 rounded-md" />
         </div>
-        <div className="mx-auto flex flex-col">
+        <div className="mx-auto flex flex-col w-full md:w-[calc(100%-24px)]">
           <label htmlFor="phoneNo" className="text-sm py-1 md:py-2" >Enter Phone No.:</label>
           <input id="phoneNo" onChange={handleInputChange} value={inputs.phoneNo} name="phoneNo"  type="number" placeholder="Enter Phone No. Here.."  className="focus:outline-1 border-2 border-violet-300 focus:outline-violet-700 w-full shadow-sm py-2 px-2 rounded-md" />
         </div>
@@ -85,7 +85,7 @@ const AddNewLeadForm = () => {
             <option value="converted" >Converted</option>
           </select>
         </div>
-        <div className="mx-auto flex flex-col">
+        <div className="mx-auto flex flex-col w-full md:w-[calc(100%-24px)]">
           <label htmlFor="assignedTo" className="text-sm py-1 md:py-2" >Assigned To:</label>
           <input id="assignedTo" onChange={handleInputChange} value={inputs.assignedTo} name="assignedTo" type="text" placeholder="Assigned To..."  className="focus:outline-1 border-2 border-violet-300 focus:outline-violet-700 w-full shadow-sm py-2 px-2 rounded-md" />
         </div>

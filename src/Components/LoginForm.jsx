@@ -61,11 +61,11 @@ const LoginForm = () => {
   }
   
   return (
-    <form onSubmit={handleFormSubmit} className="h-screen bg-slate-100 flex flex-col items-center justify-center">
-      <h2 className="font-['Libertinus_Keyboard'] text-2xl font-bold text-center py-4" >TeamLead</h2>
+    <form onSubmit={handleFormSubmit} id="loginForm" className="h-screen bg-slate-100 flex flex-col items-center justify-center">
+      <h2 className="font-['Libertinus_Keyboard'] text-2xl font-bold text-center py-4" >LMS Portal</h2>
       <AlertTopup display={displayAlertBox} message={alertMessage} link={alertLink} />
       <fieldset className="py-8 px-4 md:px-10 w-1/2 pb-1 border-2 border-violet-300 rounded-md shadow-sm bg-white">
-        <legend className="text-md px-1 ">TeamLead Login</legend>
+        <legend className="text-md px-1 ">User Login</legend>
         <div className="grid ">
           <label className="text-[10px]" htmlFor="loginEmail" >Enter Login Email</label>
           <input onChange={handleInputChange} name="email" value={formInputs.email} autofocus="" className="min-w-60 max-w-full border-2 border-violet-300 rounded-md px-2 py-2 text-md mt-1 mb-4 focus:outline-violet-700 shadow-sm" id="loginEmail" type="text" placeholder="Enter your Email..." />
@@ -81,7 +81,7 @@ const LoginForm = () => {
         {/* Login Credentials  */}
         <div className="my-4 text-sm" >
           <b className="text-md" >Login Credentials:-</b><br/>
-          "Email:- abc123@gmail.com"<br/>
+          "Email Id :- abc123@gmail.com"<br/>
           "Password:- abcdabcd"
         </div>
         </fieldset>
